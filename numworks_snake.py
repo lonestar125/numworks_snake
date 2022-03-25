@@ -1,5 +1,7 @@
 ''' 
-original snake logic by some random stackoverflow post 
+by lonestar125
+
+original snake logic and some of the code from some random stackoverflow post 
 because i couldnt be bothered to do the math
 '''
 import random
