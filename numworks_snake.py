@@ -12,7 +12,7 @@ from time import *
 refresh = float(input("speed (0.1 - 1): ")) 
 tilesize = int(input("tilesize (1-20): "))
 boardWidth = 320
-boardHeight = 220
+boardHeight = 210
 
 class Snake():
 
@@ -121,7 +121,7 @@ game = snake.checkGameOver()
 while game:
 
     #refresh/clear screen
-    fill_rect(0, 0, 320, 240, "white")
+    fill_rect(0, 0, 320, 210, "white")
 
     snake.move()
     if snake.checkGameOver() != False:
@@ -140,7 +140,7 @@ while game:
 
     #gameover msg
     else:
-        fill_rect(0, 0, 320, 240, "white")
+        fill_rect(0, 0, 320, 210, "white")
         draw_string("SCORE: " + str(snake.getPoints()), 110, 90, "black")
         sleep(2)
         break
