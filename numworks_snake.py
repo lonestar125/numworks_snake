@@ -1,5 +1,6 @@
 ''' 
 by lonestar125
+https://my.numworks.com/python/lonestar125
 
 original snake logic and some of the code from some random stackoverflow post 
 because i couldnt be bothered to do the math
